@@ -16,7 +16,7 @@
 #elif defined(__APPLE__) && defined(__aarch64__)
 #define PAGE_SIZE 16384
 #else
-#define PAGE_SIZE 4096
+#define PAGE_SIZE 16384
 #endif
 #ifndef PAGE_MASK
 #define PAGE_MASK (PAGE_SIZE-1)
